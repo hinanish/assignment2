@@ -1,0 +1,30 @@
+.footer{
+  
+   
+    padding: 4px;
+    margin: 20px; 
+    /* display: flex; */
+     background-color:#7fff29; 
+   justify-content: space-between;
+   padding: 10px;
+    border-radius: 10px;
+     
+
+}
+.div{
+    text-align: center;
+       /* background-color: white; */
+       color: white;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bolder;
+     
+    
+
+}
+.divs{
+   
+      
+    /* background-color: white; */
+    color: green;
+}
