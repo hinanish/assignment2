@@ -5,17 +5,17 @@ import Image from 'next/image'
 import Footer from './footer/footer'
 import Hero from './herosection/hero'
 
-
-
 function Home() {
   return (
     <div className={styles.bgcolr}>
-     <Image src={'/mangologo.jpg'} alt='mangologo' width={200} height={200} className={styles.Image} ></Image>
-      <Header></Header>
-      <Hero> </Hero>
-      <Footer></Footer>
+      <div className={styles.imageWrapper}>
+        <Image src='/mangologo.jpg' alt='mangologo' width={200} height={200} />
+      </div>
+      <Header />
+      <Hero />
+      <Footer />
     </div>
   )
 }
 
-export default Home 
+export default Home
